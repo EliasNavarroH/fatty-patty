@@ -1,4 +1,4 @@
-/* main styling  */
+ñ/* main styling  */
 
 body {
     display: flex;
@@ -16,22 +16,32 @@ nav ul {
     list-style: none;
 }
 
+.top-section-container{
+    display: flex;
+
+}
+
 .top-five-section{
     display: flex;
-    justify-content: center;
+    align-items: center;
     flex-direction: column;
 
-
 }
 
-section ul {
-    display: flex;
-    justify-content:space-between;
-    flex-wrap: wrap;
-    flex: 200px;
-    align-items: center;
+.the-one {
+    width: 400px;
+    height: auto;
+}
+
+
+.top-five-section img{
+    width: 150px;
+    height: 150px;
     border: 1px solid;
-
+    object-fit: cover;
 }
 
-        
+.five-container {
+    display: flex;
+    gap: 20px;
+}
