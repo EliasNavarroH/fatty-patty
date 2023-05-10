@@ -1,10 +1,13 @@
 /* main styling  */
 
+
+/* The entire body styling  */
 body {
     display: flex;
     flex-direction: column;
 }
 
+/* nav and header */
 header {
     display: flex;
     justify-content: space-between;
@@ -15,12 +18,17 @@ nav ul {
     gap: 1em;
     list-style: none;
 }
-
+/* First section  */
 .main-burger {
     display: flex;
     align-items: center;
     gap: 15px;
 
+}
+
+.the-one {
+width: 400px;
+height: auto;
 }
 
 .top-section-container{
@@ -32,17 +40,14 @@ nav ul {
 
 }
 
+
+/* Seconnd section */
 .top-five-section{
     display: flex;
     align-items: center;
     flex-direction: column;
 
-}
-
-.the-one {
-    width: 400px;
-    height: auto;
-}
+}    
 
 
 .top-five-section img{
@@ -55,7 +60,10 @@ nav ul {
 .five-container {
     display: flex;
     gap: 20px;
+    flex-wrap: wrap;
 }
+
+/* The third section  */
 
 .guru-container {
     display: flex;
@@ -75,3 +83,4 @@ nav ul {
     justify-content: space-between;
     align-items: center;
 }
+
