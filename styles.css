@@ -1,6 +1,11 @@
 /* main styling  */
 
 
+* {
+    margin: 0;
+    padding: 0;
+}
+
 /* The entire body styling  */
 body {
     display: flex;
@@ -63,6 +68,7 @@ height: auto;
 .guru-container {
     display: flex;
     align-items: center;
+    gap: 20px;
 }
 .guru-container img {
     width: 180px;
@@ -79,3 +85,17 @@ height: auto;
 
 
 /* Fourth section  */
+.designer-container {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+
+}
+
+
+/* the footer  */
+footer{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
