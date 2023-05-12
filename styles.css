@@ -4,12 +4,14 @@
 * {
     margin: 0;
     padding: 0;
+    font-family: 'Grandstander', cursive;
 }
 
 /* The entire body styling  */
 body {
     display: flex;
     flex-direction: column;
+    background-color: #FAF2DC;
 }
 
 
@@ -30,11 +32,15 @@ nav ul {
     display: flex;
     align-items: center;
     gap: 15px;
+    margin: 30px 25px;
+    padding: 20px 10px;
 
 }
 .the-one {
 width: 400px;
 height: auto;
+border: 2px solid #EA2B1F;
+border-radius: 10%;
 }
 .top-section-container{
     display: flex;
@@ -49,12 +55,11 @@ height: auto;
     display: flex;
     align-items: center;
     flex-direction: column;
-
+    
 }    
 .top-five-section img{
     width: 150px;
     height: 150px;
-    border: 1px solid;
     object-fit: cover;
 }
 .five-container {
@@ -63,6 +68,10 @@ height: auto;
     flex-wrap: wrap;
 }
 
+.top-summary img {
+    border-radius: 20%;
+    border: 2px solid #EA2B1F;;
+}
 
 /* The third section  */
 .guru-container {
@@ -92,10 +101,12 @@ height: auto;
 
 }
 
-
 /* the footer  */
 footer{
     display: flex;
     justify-content: center;
     align-items: center;
 }
+
+/* color  */
+
